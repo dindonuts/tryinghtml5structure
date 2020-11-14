@@ -23,12 +23,16 @@ body {
 }
 
 header {
-    padding: 40px 60px 20px 60px;
+    margin: 20px 60px 20px 60px;
 
     img{
         height: 30px;
+    }
 
-        @include breakpoint-up(large){
+    @include breakpoint-up(large){
+        margin: 80px 60px 20px 60px;
+
+        img{
             height: 40px;
         }
     }
@@ -37,11 +41,11 @@ header {
 section {
     float: left;
     width: 100%;
-    padding: 10px 60px 25px 60px;
+    padding: 60px 60px 25px 60px;
     text-align: center;
 
     img {
-        max-width: 95%;
+        max-width: 110%;
         max-height: 100%;
     }
 

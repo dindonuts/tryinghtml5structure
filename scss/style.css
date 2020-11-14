@@ -27,7 +27,7 @@ body {
 }
 
 header {
-  padding: 40px 60px 20px 60px;
+  margin: 20px 60px 20px 60px;
 }
 
 header img {
@@ -35,6 +35,9 @@ header img {
 }
 
 @media (min-width: 64em) {
+  header {
+    margin: 80px 60px 20px 60px;
+  }
   header img {
     height: 40px;
   }
@@ -43,12 +46,12 @@ header img {
 section {
   float: left;
   width: 100%;
-  padding: 10px 60px 25px 60px;
+  padding: 60px 60px 25px 60px;
   text-align: center;
 }
 
 section img {
-  max-width: 95%;
+  max-width: 110%;
   max-height: 100%;
 }
 
